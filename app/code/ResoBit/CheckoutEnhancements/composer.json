@@ -1,0 +1,19 @@
+{
+    "name": "resobit/magento2-checkout-enhancements",
+    "description": "Magento 2 Checkout and Reorder Functionality Enhancements by ResoBit",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": ["OSL-3.0"],
+    "require": {
+        "php": "~7.4||~8.1",
+        "magento/framework": "103.0.*|104.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ResoBit\\CheckoutEnhancements\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
